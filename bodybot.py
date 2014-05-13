@@ -35,7 +35,7 @@ heads = [head1, head2, head3, head4, head5, head6, head7, head8, head9, head10, 
 small_heads = [head1, head4, head5, head6, head7, head12, head13, head15, head16, head17, head18, head19, head20]
 
 while True:
-    all_comments = r.get_comments('Funny+Pics+AdviceAnimals+4ChanMeta')   
+    all_comments = r.get_comments('Funny+AdviceAnimals+4ChanMeta')   
     for comment in all_comments:
         if not hasattr(comment, 'body'):
             continue
