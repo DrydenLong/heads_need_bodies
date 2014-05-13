@@ -151,11 +151,25 @@ while True:
                                   intro+sp+'/'+sp+'\\'+new+
                                   intro+sp+'|'+sp+'|'+new+
                                   intro+'_|'+sp+'|_').encode('utf-8')
+                                  
+                        body17 = ("""\
+                        
+                                           ._ o o
+                                           \_`-)|_
+                                        ,""       \ 
+                                      ,"  ## |   ಠ ಠ. 
+                                    ," ##   ,-\__    `.
+                                  ,"       /     `--._;)
+                                ,"     ## /
+                              ,"   ##    /
+                        
+                        
+                        """).encode('utf-8')
 
                         if library == 'all_bodies':
-                            bodies = [body1, body2, body3, body4, body5, body6, body7, body8, body9, body10, body11, body12, body13, body14, body15, body16]
+                            bodies = [body1, body2, body3, body4, body5, body6, body7, body8, body9, body10, body11, body12, body13, body14, body15, body16, body17]
                         else:
-                            bodies = [body1, body2, body3, body4, body5, body6, body7, body8, body9, body11, body13, body14, body15]
+                            bodies = [body1, body2, body3, body4, body5, body6, body7, body8, body9, body11, body13, body14, body15, body17]
                         
                         #Several Reddit users have sent in bodies to use, here we give them credit
                         hotshotjosh = [body10, body11]
