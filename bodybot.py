@@ -30,9 +30,11 @@ head17 = u'⌐■_■'.encode('utf-8')
 head18 = u'•_•'.encode('utf-8')
 head19 = u'◉ω◉'.encode('utf-8')
 head20 = u'ﾟ∀ﾟ'.encode('utf-8')
+head21 = u':)'.encode('utf-8')
+head22 = u':-)'.encode('utf-8')
 
-heads = [head1, head2, head3, head4, head5, head6, head7, head8, head9, head10, head11, head12, head13, head14, head15, head16, head17, head18, head19, head20]
-small_heads = [head1, head4, head5, head6, head7, head12, head13, head15, head16, head17, head18, head19, head20]
+heads = [head1, head2, head3, head4, head5, head6, head7, head8, head9, head10, head11, head12, head13, head14, head15, head16, head17, head18, head19, head20, head21, head22]
+small_heads = [head1, head4, head5, head6, head7, head12, head13, head15, head16, head17, head18, head19, head20, head21, head22]
 
 while True:
     all_comments = r.get_comments('Funny+Pics+AdviceAnimals+4ChanMeta')   
@@ -48,6 +50,8 @@ while True:
                             library = 'small_heads'
                         else:
                             library = 'large_heads'
+                        if head in [head21, head22]:
+                            head = u'•‿•'.encode('utf-8')
                         head = head.decode('utf-8')
                         body1 = (intro+head+new+
                                  intro+' |'+new+
