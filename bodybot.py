@@ -20,7 +20,7 @@ intro = u'\u0020'u'\u0020'u'\u0020'u'\u0020'
 new = u'\u0020'u'\u0020'+'\n'
 
 
-#All the heads/faces we am looking for
+#All the heads/faces we are looking for
 
 head1 = u'ಠ_ಠ'.encode('utf-8')
 head2 = u'° ͜ʖ ͡°'.encode('utf-8')
