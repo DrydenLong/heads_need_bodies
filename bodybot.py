@@ -164,14 +164,6 @@ while True:
                                   intro+'         ( O O )                           ( O O )'+new+
                                   intro+'==============================================================').encode('utf-8')
 
-                        body18 = (intro+'             ._ o o'+new+
-                                  intro+'             \_`-)|_'+new+
-                                  intro+'          ,""       \\'+new+ 
-                                  intro+'        ,"  ## |   '+head+'.'+new+ 
-                                  intro+'      ," ##   ,-\__    `.'+new+
-                                  intro+'    ,"       /     `--._;)'+new+
-                                  intro+'  ,"     ## /'+new+
-                                  intro+',"   ##    /').encode('utf-8')
                 
                         if library == 'small_heads':
                             bodies = [body1, body2, body3, body4, body5, body6, body7, body8, body9, body10, body11, body12, body13, body14, body15, body16, body17, body18]
@@ -184,7 +176,6 @@ while True:
                         happyfacekillah = [body15]
                         tyx = [body16]
                         ChromeLynx = [body17]
-                        herminator = [body18]
                         bod = random.choice(bodies)
                         if bod in hotshotjosh:
                             credit = ('\n\n'+'Credit to /u/hotshotjosh for sending me this body.')
@@ -198,8 +189,6 @@ while True:
                             credit = ('\n\n'+'Credit to /u/Tyx for sending me this body.')
                         elif bod in ChromeLynx:
                             credit = ('\n\n'+'Credit to /u/ChromeLynx for sending me this body.')
-                        elif bod in herminator:
-                            credit = ('\n\n'+'Credit to /u/herminator for this body.')
                         else:
                             credit = ('')
                         comment.reply(bod+credit+'\n\n')
@@ -345,14 +334,4 @@ while True:
 #==============================================================
 #*  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *  *
                         
-#body18
-#              ._ o o
-#              \_`-)|_
-#           ,""       \ 
-#        ,"  ## |   ಠ ಠ. 
-#      ," ##   ,-\__    `.
-#    ,"       /     `--._;)
-#  ,"     ## /
-#,"   ##    /
-
 
