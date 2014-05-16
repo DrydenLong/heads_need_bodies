@@ -12,7 +12,7 @@ new = u'\u0020'u'\u0020'+'\n'
 
 head1 = u'ಠ_ಠ'.encode('utf-8')
 head2 = u'° ͜ʖ ͡°'.encode('utf-8')
-head3 = u'͠°͟ʖ͡°'.encode('utf-8')
+head3 = u'͠(͡° ͜ʖ ͡°)'.encode('utf-8')
 head4 = u'ಥ_ಥ'.encode('utf-8')
 head5 = u'ʘ‿ʘ'.encode('utf-8')
 head6 = u'ಠ‿↼'.encode('utf-8')
@@ -141,7 +141,7 @@ while True:
                                   intro+'/'+u'ω'+'\\').encode('utf-8')
 
                         body15 = (intro+' (\ /)'+new+
-                                  intro+' ('+head+')'+new+
+                                  intro+' '+head+new+
                                   intro+' '+u'ᑕ'+'( )'+u'ᑐ'+new+
                                   intro+'(") (")').encode('utf-8')
 
